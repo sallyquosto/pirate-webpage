@@ -1,0 +1,41 @@
+body {
+    background-color: #cccccc;
+    margin: 0px;
+    padding: 0px 40px;
+}
+
+h1 {
+    font-family: 'Seaweed Script', cursive;
+}
+
+.nav-container {
+    font-family: 'Nanum Brush Script', cursive;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.image-one {
+    float: right;
+    margin-left: 15px;
+    border: 1px solid #dddddd;
+    padding: 5px 5px 5px 5px;
+    transform: rotate(2deg);
+    box-shadow: 3px 3px #999999
+}
+
+.image-two {
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #dddddd;
+    padding: 5px 5px 5px 5px;
+    transform: rotate(-2deg);
+    box-shadow: 3px 3px #999999;
+}
+
+.caption {
+    text-align: center;
+    color: #333333;
+}
